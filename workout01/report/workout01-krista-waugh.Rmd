@@ -1,0 +1,12 @@
+---
+title: "Workout 01"
+output: github_document
+---
+```{r}
+getwd()
+```
+
+```{r}
+
+```
+

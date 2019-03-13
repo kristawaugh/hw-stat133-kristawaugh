@@ -1,0 +1,214 @@
+---
+title: "Effective Shooting Percentages"
+author: "Krista Waugh"
+output: github_document
+---
+According to this [article](https://sircharlesincharge.com/2019/03/13/golden-state-warriors-serious-concern/) in *Fansided*, the Golden State Warriors main weakness is their defense, as the demonstrated in their recent loss against the Phoenix Suns. It is hard to admit that the Bay Area's beloved Warriors may have any weakness at all, so I wont. Here I have analyzed only the shooting percentages of the Warriors offensive players from their legendary 2016/2017 season. Is this a thorough analysis of the Warriors overall performance as a team? Not particularly, but it does bring to light some of what makes them one of the most talked about teams in NBA history: their undeniably high shooting success rates. 
+
+The two years prior to the 2014/2015 season, the Warriors finished 6th in the league, and before that from the mid 90s until their 6th place finish in 2013, they were hanging out around 10th place overall. The 2016/2017 season was Kevin Durant’s first season with the Warriors, after playing for Oklahoma City Thunder for nine seasons, experiencing some tough losses to the Warriors during the Finals, and ultimately never winning a finals with OKC Thunder. Stephen Curry, Klay Thompson, Draymond Green, and Andre Iguodala are some of the most famous names in this new wave of Warriors fame, from what I understand as someone who sat through their first basketball game in the spring of 2015, along with what seems like the great majority of today’s Warrior fans. 
+
+Understandably so, as the Bay Area is such a hub of technology, food, and entertainment- the Warriors had to be the best in order to take the spotlight among all the other stimulation present in the area. The sports industry is ultimately a business, and the number of Warriors jerseys sported around town during May and June indicate that business is booming. This can be attributed almost completely to how fun these men are to watch. People like basketball probably for a lot of reasons, but a big one is how fast paced it is. If you leave the room to grab a beer you will have missed something, unlike soccer or football. Being a Warriors fan for the sake of entertainment is great because they keep shooting and keep making it, which is what my analysis is centered around: shooting percentages. 
+
+
+```{r}
+library(dplyr)
+library(readr)
+library(formattable)
+library(knitr)
+```
+
+
+```{r}
+setwd("/Users/kristawaugh/Documents/Spring19/Stat133/workout01/report")
+shots_data <- read_csv("shots_data.csv", col_names = TRUE)
+shots_data
+```
+
+
+```{r comment = ""}
+shots2pt_klay <- filter(shots_data, shot_type == "2PT Field Goal" & Name == "Klay Thompson")
+shots2pt_klay
+#640 rows
+
+filter(shots2pt_klay, shot_made_flag == "shot_yes")
+#329 rows 
+
+#329/640 = 0.5140625
+```
+
+```{r comment = ""}
+shots2pt_andre <- filter(shots_data, shot_type == "2PT Field Goal" & Name == "Andre Iguodala")
+shots2pt_andre
+#210 rows
+
+filter(shots2pt_andre, shot_made_flag == "shot_yes")
+#134 rows 
+
+#134/210 =  0.6380952
+```
+
+```{r comment = ""}
+shots2pt_draymond <- filter(shots_data, shot_type == "2PT Field Goal" & Name == "Draymond Green")
+shots2pt_draymond
+#346 rows
+
+filter(shots2pt_draymond, shot_made_flag == "shot_yes")
+#171 rows 
+
+#171/346 =  0.4942197
+```
+
+```{r}
+shots2pt_steph <- filter(shots_data, shot_type == "2PT Field Goal" & Name == "Stephen Curry")
+shots2pt_steph
+#563 rows
+
+filter(shots2pt_steph, shot_made_flag == "shot_yes")
+#304 rows 
+
+#304/563 =  0.5399645
+```
+
+```{r comment = ""}
+shots2pt_kd <- filter(shots_data, shot_type == "2PT Field Goal" & Name == "Kevin Durant")
+shots2pt_kd
+#643 rows
+
+filter(shots2pt_kd, shot_made_flag == "shot_yes")
+#390 rows 
+
+#171/346 = 0.4942197
+```
+
+```{r comment = ""}
+shots3pt_kd <- filter(shots_data, shot_type == "3PT Field Goal" & Name == "Kevin Durant")
+shots3pt_kd
+#272 rows
+
+filter(shots3pt_kd, shot_made_flag == "shot_yes")
+#105 rows 
+
+#74/232 = 0.3189655
+```
+
+```{r commment = ""}
+shots3pt_draymond <- filter(shots_data, shot_type == "3PT Field Goal" & Name == "Draymond Green")
+shots3pt_draymond
+#232 rows
+
+filter(shots3pt_draymond, shot_made_flag == "shot_yes")
+#74 rows 
+
+#74/232 = 0.3189655
+```
+
+```{r comment = ""}
+shots3pt_curry <- filter(shots_data, shot_type == "3PT Field Goal" & Name == "Stephen Curry")
+shots3pt_curry
+#687 rows
+
+filter(shots3pt_curry, shot_made_flag == "shot_yes")
+#280 rows 
+
+#280/687 = 0.4075691
+```
+
+```{r comment = ""}
+shots3pt_thompson <- filter(shots_data, shot_type == "3PT Field Goal" & Name == "Klay Thompson")
+shots3pt_thompson
+#580 rows
+
+filter(shots3pt_thompson, shot_made_flag == "shot_yes")
+#246 rows 
+
+#246/580 =  0.4241379
+```
+
+```{r comment = ""}
+shots3pt_andre <- filter(shots_data, shot_type == "3PT Field Goal" & Name == "Andre Iguodala")
+shots3pt_andre
+#161 rows
+
+filter(shots3pt_andre, shot_made_flag == "shot_yes")
+#58 rows 
+
+#58/161 = 0.3602484
+```
+
+```{r comment = ""}
+shots_klay <- filter(shots_data, Name == "Klay Thompson")
+shots_klay
+#1220 rows
+
+filter(shots_klay, shot_made_flag == "shot_yes")
+#575 rows 
+
+shots_steph <- filter(shots_data, Name == "Stephen Curry")
+shots_steph
+#1250 rows
+
+filter(shots_steph, shot_made_flag == "shot_yes")
+#584 rows 
+
+shots_andre <- filter(shots_data, Name == "Andre Iguodala")
+shots_andre
+#371 rows
+
+filter(shots_andre, shot_made_flag == "shot_yes")
+#192 rows 
+
+shots_kd <- filter(shots_data, Name == "Kevin Durant")
+shots_kd
+#915 rows
+
+filter(shots_kd, shot_made_flag == "shot_yes")
+#495 rows 
+
+shots_draymond <- filter(shots_data, Name == "Draymond Green")
+shots_draymond
+#578 rows
+
+filter(shots_draymond, shot_made_flag == "shot_yes")
+#245 rows 
+```
+
+
+```{r}
+shots2pt <- matrix(c("Curry","563","304", "53.99%","Durant", "643","390","60.6%","Green", "346","171","49.4%", "Iguodala", "210", "134", "63.8%", "Thompson", "640", "329", "51.4%"), ncol=4,byrow=TRUE)
+colnames(shots2pt) <- c("name","total","made", "perc_made")
+table_shots2pt <- as.table(shots2pt)
+table_shots2pt
+   
+```
+
+```{r}
+df2pt <- knitr::kable(table_shots2pt, row.names = FALSE, caption = "Effective Shooting % by PLayer")
+df2pt
+```
+
+```{r}
+shots3pt <- matrix(c("Curry","687","280", "40.7%","Durant", "272","105","38.6%","Green", "232","74","31.9%", "Iguodala", "161", "58", "36%", "Thompson", "580", "246", "42.4%"), ncol=4,byrow=TRUE)
+colnames(shots3pt) <- c("name","total","made", "perc_made")
+table_shots3pt <- as.table(shots3pt)
+table_shots3pt
+```
+
+
+```{r}
+df3pt <- knitr::kable(table_shots3pt, row.names = FALSE, caption = "Effective Shooting % by PLayer")
+df3pt
+```
+
+```{r}
+shots_total <- matrix(c("Curry","1250","584", "46.7%","Durant", "915","495","54.1%","Green", "578","245","42.4%", "Iguodala", "371", "192", "51.8%", "Thompson", "1220", "575", "47.1%"), ncol=4,byrow=TRUE)
+colnames(shots_total) <- c("name","total","made", "perc_made")
+table_shots_total <- as.table(shots_total)
+table_shots_total
+```
+
+```{r}
+df_shots_total <- knitr::kable(table_shots_total, row.names = FALSE, caption = "Effective Shooting % by PLayer")
+df_shots_total
+```
+
+

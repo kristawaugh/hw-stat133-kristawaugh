@@ -1,0 +1,138 @@
+                 team_name game_date season period minutes_remaining seconds_remaining shot_made_flag                     action_type      shot_type
+1    Golden State Warriors   11/1/16   2016      1                 9                28       shot_yes            Alley Oop Layup shot 2PT Field Goal
+2    Golden State Warriors   2/23/17   2016      4                10                16       shot_yes            Alley Oop Layup shot 2PT Field Goal
+3    Golden State Warriors   2/25/17   2016      3                 5                30       shot_yes               Cutting Dunk Shot 2PT Field Goal
+4    Golden State Warriors   3/21/17   2016      4                 8                56       shot_yes  Cutting Finger Roll Layup Shot 2PT Field Goal
+5    Golden State Warriors  11/21/16   2016      2                 4                39       shot_yes  Cutting Finger Roll Layup Shot 2PT Field Goal
+6    Golden State Warriors  12/30/16   2016      4                 7                17       shot_yes  Cutting Finger Roll Layup Shot 2PT Field Goal
+7    Golden State Warriors   11/7/16   2016      4                 7                46       shot_yes  Cutting Finger Roll Layup Shot 2PT Field Goal
+8    Golden State Warriors   12/5/16   2016      2                 8                55       shot_yes  Cutting Finger Roll Layup Shot 2PT Field Goal
+9    Golden State Warriors  11/25/16   2016      4                 7                31       shot_yes  Cutting Finger Roll Layup Shot 2PT Field Goal
+10   Golden State Warriors  11/13/16   2016      2                 8                47       shot_yes  Cutting Finger Roll Layup Shot 2PT Field Goal
+11   Golden State Warriors   11/7/16   2016      3                10                17       shot_yes  Cutting Finger Roll Layup Shot 2PT Field Goal
+12   Golden State Warriors   3/28/17   2016      1                 6                44       shot_yes              Cutting Layup Shot 2PT Field Goal
+13   Golden State Warriors  12/10/16   2016      2                 5                 5        shot_no              Cutting Layup Shot 2PT Field Goal
+14   Golden State Warriors    2/4/17   2016      3                 8                29       shot_yes              Cutting Layup Shot 2PT Field Goal
+15   Golden State Warriors  12/28/16   2016      1                11                49       shot_yes              Cutting Layup Shot 2PT Field Goal
+16   Golden State Warriors  11/21/16   2016      2                 2                42        shot_no              Cutting Layup Shot 2PT Field Goal
+17   Golden State Warriors  11/13/16   2016      3                 4                51       shot_yes              Cutting Layup Shot 2PT Field Goal
+18   Golden State Warriors    1/6/17   2016      1                 3                 2       shot_yes              Cutting Layup Shot 2PT Field Goal
+19   Golden State Warriors  12/10/16   2016      2                 7                30       shot_yes              Cutting Layup Shot 2PT Field Goal
+20   Golden State Warriors  10/28/16   2016      2                 4                 4       shot_yes              Cutting Layup Shot 2PT Field Goal
+21   Golden State Warriors   1/25/17   2016      3                11                10       shot_yes              Cutting Layup Shot 2PT Field Goal
+22   Golden State Warriors   3/16/17   2016      1                 7                28       shot_yes              Cutting Layup Shot 2PT Field Goal
+23   Golden State Warriors   3/20/17   2016      2                 0                55       shot_yes              Cutting Layup Shot 2PT Field Goal
+24   Golden State Warriors   12/5/16   2016      1                 6                34       shot_yes              Cutting Layup Shot 2PT Field Goal
+25   Golden State Warriors   12/5/16   2016      3                 9                32       shot_yes              Cutting Layup Shot 2PT Field Goal
+26   Golden State Warriors  12/15/16   2016      1                 2                56       shot_yes              Cutting Layup Shot 2PT Field Goal
+27   Golden State Warriors   2/10/17   2016      1                 7                29        shot_no              Cutting Layup Shot 2PT Field Goal
+28   Golden State Warriors   1/20/17   2016      1                 5                43       shot_yes              Cutting Layup Shot 2PT Field Goal
+29   Golden State Warriors   1/16/17   2016      4                 9                14       shot_yes              Cutting Layup Shot 2PT Field Goal
+30   Golden State Warriors    3/2/17   2016      2                10                52       shot_yes              Cutting Layup Shot 2PT Field Goal
+31   Golden State Warriors    3/2/17   2016      2                11                47       shot_yes              Cutting Layup Shot 2PT Field Goal
+32   Golden State Warriors    1/2/17   2016      2                 2                 5       shot_yes              Cutting Layup Shot 2PT Field Goal
+33   Golden State Warriors   3/28/17   2016      1                11                18       shot_yes              Cutting Layup Shot 2PT Field Goal
+34   Golden State Warriors   3/18/17   2016      4                 9                58       shot_yes              Cutting Layup Shot 2PT Field Goal
+35   Golden State Warriors    1/8/17   2016      2                 7                38       shot_yes              Cutting Layup Shot 2PT Field Goal
+36   Golden State Warriors  12/22/16   2016      2                 6                45       shot_yes              Cutting Layup Shot 2PT Field Goal
+37   Golden State Warriors   11/7/16   2016      1                11                21       shot_yes              Cutting Layup Shot 2PT Field Goal
+38   Golden State Warriors    1/8/17   2016      3                10                24       shot_yes              Cutting Layup Shot 2PT Field Goal
+39   Golden State Warriors  11/13/16   2016      4                 9                 4       shot_yes              Cutting Layup Shot 2PT Field Goal
+40   Golden State Warriors  12/25/16   2016      1                 0                 0       shot_yes              Cutting Layup Shot 2PT Field Goal
+41   Golden State Warriors   3/20/17   2016      2                 1                28       shot_yes              Cutting Layup Shot 2PT Field Goal
+42   Golden State Warriors   2/25/17   2016      2                11                41       shot_yes              Cutting Layup Shot 2PT Field Goal
+43   Golden State Warriors   11/1/16   2016      1                 1                21       shot_yes              Cutting Layup Shot 2PT Field Goal
+44   Golden State Warriors  12/11/16   2016      4                11                45       shot_yes              Cutting Layup Shot 2PT Field Goal
+45   Golden State Warriors   3/28/17   2016      1                 9                25        shot_no              Cutting Layup Shot 2PT Field Goal
+46   Golden State Warriors  11/21/16   2016      2                 7                11       shot_yes              Cutting Layup Shot 2PT Field Goal
+47   Golden State Warriors   3/26/17   2016      2                 6                41       shot_yes              Cutting Layup Shot 2PT Field Goal
+48   Golden State Warriors   12/5/16   2016      1                 3                26        shot_no              Cutting Layup Shot 2PT Field Goal
+49   Golden State Warriors    1/8/17   2016      2                 6                 5       shot_yes              Cutting Layup Shot 2PT Field Goal
+50   Golden State Warriors    1/8/17   2016      2                 6                42       shot_yes              Cutting Layup Shot 2PT Field Goal
+51   Golden State Warriors   1/28/17   2016      1                 7                40        shot_no              Cutting Layup Shot 2PT Field Goal
+52   Golden State Warriors   1/25/17   2016      2                 9                59       shot_yes              Cutting Layup Shot 2PT Field Goal
+53   Golden State Warriors   1/20/17   2016      1                 7                 0        shot_no              Cutting Layup Shot 2PT Field Goal
+54   Golden State Warriors  10/30/16   2016      4                 6                49       shot_yes              Cutting Layup Shot 2PT Field Goal
+55   Golden State Warriors  12/13/16   2016      4                 6                20       shot_yes              Cutting Layup Shot 2PT Field Goal
+56   Golden State Warriors    4/4/17   2016      4                 6                48       shot_yes              Cutting Layup Shot 2PT Field Goal
+57   Golden State Warriors  11/28/16   2016      2                 0                38       shot_yes              Cutting Layup Shot 2PT Field Goal
+58   Golden State Warriors   2/27/17   2016      2                 1                54       shot_yes              Cutting Layup Shot 2PT Field Goal
+59   Golden State Warriors  10/28/16   2016      3                 8                25       shot_yes              Cutting Layup Shot 2PT Field Goal
+60   Golden State Warriors  12/17/16   2016      2                 4                33       shot_yes               Driving Bank shot 2PT Field Goal
+61   Golden State Warriors  11/23/16   2016      1                 4                56       shot_yes               Driving Bank shot 2PT Field Goal
+62   Golden State Warriors  12/11/16   2016      2                 3                20       shot_yes               Driving Bank shot 2PT Field Goal
+63   Golden State Warriors    2/4/17   2016      2                 0                48       shot_yes               Driving Dunk Shot 2PT Field Goal
+64   Golden State Warriors   12/5/16   2016      3                 8                23       shot_yes  Driving Finger Roll Layup Shot 2PT Field Goal
+65   Golden State Warriors  12/15/16   2016      2                 1                55       shot_yes  Driving Finger Roll Layup Shot 2PT Field Goal
+66   Golden State Warriors  10/30/16   2016      2                 9                26       shot_yes  Driving Finger Roll Layup Shot 2PT Field Goal
+     shot_distance               opponent    x   y           Name minute
+1                2 Portland Trail Blazers  -25   7  Klay Thompson     15
+2                1   Los Angeles Clippers    2  11  Klay Thompson     50
+3                0          Brooklyn Nets    0   1  Klay Thompson     43
+4                0       Dallas Mavericks    0  -1  Klay Thompson     52
+5                1         Indiana Pacers    2  16  Klay Thompson     32
+6                0       Dallas Mavericks   -6   7  Klay Thompson     53
+7                2   New Orleans Pelicans    4  26  Klay Thompson     53
+8                2         Indiana Pacers    4  26  Klay Thompson     28
+9                1     Los Angeles Lakers    1  16  Klay Thompson     53
+10               2           Phoenix Suns   15  21  Klay Thompson     28
+11               1   New Orleans Pelicans   -1  11  Klay Thompson     38
+12               0        Houston Rockets    1  -1  Klay Thompson     18
+13               2      Memphis Grizzlies  -17  11  Klay Thompson     31
+14               2       Sacramento Kings   19  11  Klay Thompson     40
+15               0        Toronto Raptors    2   2  Klay Thompson     13
+16               0         Indiana Pacers    1   0  Klay Thompson     34
+17               1           Phoenix Suns   14   8  Klay Thompson     44
+18               3      Memphis Grizzlies   25  21  Klay Thompson     21
+19               1      Memphis Grizzlies   10   2  Klay Thompson     29
+20               1   New Orleans Pelicans    9  13  Klay Thompson     32
+21               0      Charlotte Hornets    6   2  Klay Thompson     37
+22               1          Orlando Magic  -11  16  Klay Thompson     17
+23               0  Oklahoma City Thunder    9   2  Klay Thompson     36
+24               2         Indiana Pacers    4  21  Klay Thompson     18
+25               1         Indiana Pacers    0  11  Klay Thompson     39
+26               0        New York Knicks   -2   7  Klay Thompson     22
+27               1      Memphis Grizzlies    9  13  Klay Thompson     17
+28               3        Houston Rockets   22  26  Klay Thompson     19
+29               1    Cleveland Cavaliers    4  11  Klay Thompson     51
+30               1          Chicago Bulls   10   7  Klay Thompson     26
+31               2          Chicago Bulls  -20   7  Klay Thompson     25
+32               1         Denver Nuggets    1  16  Klay Thompson     34
+33               1        Houston Rockets   15 -11  Klay Thompson     13
+34               1        Milwaukee Bucks   12  13  Klay Thompson     51
+35               1       Sacramento Kings   19   3  Klay Thompson     29
+36               2          Brooklyn Nets   27   8  Klay Thompson     30
+37               0   New Orleans Pelicans   -4   8  Klay Thompson     13
+38               1       Sacramento Kings  -17  -1  Klay Thompson     38
+39               1           Phoenix Suns    4  11  Klay Thompson     51
+40               1    Cleveland Cavaliers  -12 -11  Klay Thompson     24
+41               1  Oklahoma City Thunder   10   7  Klay Thompson     35
+42               1          Brooklyn Nets    3  19  Klay Thompson     25
+43               2 Portland Trail Blazers  -24  -1  Klay Thompson     23
+44               1 Minnesota Timberwolves   15  11  Klay Thompson     49
+45               1        Houston Rockets  -11  -6  Klay Thompson     15
+46               3         Indiana Pacers   25  21  Klay Thompson     29
+47               2      Memphis Grizzlies   15  16  Klay Thompson     30
+48               2         Indiana Pacers    9  28  Klay Thompson     21
+49               2       Sacramento Kings  -22  16  Klay Thompson     30
+50               2       Sacramento Kings  -19  11  Klay Thompson     30
+51               1   Los Angeles Clippers    2  16  Klay Thompson     17
+52               1      Charlotte Hornets  -16   2  Klay Thompson     27
+53               3        Houston Rockets  -20  31  Klay Thompson     17
+54               2           Phoenix Suns   17  11  Klay Thompson     54
+55               2   New Orleans Pelicans   22   7  Klay Thompson     54
+56               1 Minnesota Timberwolves    0  13  Klay Thompson     54
+57               1          Atlanta Hawks   12   8  Klay Thompson     36
+58               2     Philadelphia 76ers   12 -21  Klay Thompson     35
+59               2   New Orleans Pelicans   22  16  Klay Thompson     40
+60              10 Portland Trail Blazers -101  38  Klay Thompson     32
+61              14     Los Angeles Lakers   94 106  Klay Thompson     20
+62               5 Minnesota Timberwolves  -40  38  Klay Thompson     33
+63               0       Sacramento Kings    0   1  Klay Thompson     36
+64               2         Indiana Pacers   19   7  Klay Thompson     40
+65               1        New York Knicks   -7  13  Klay Thompson     35
+66               0           Phoenix Suns   -1   8  Klay Thompson     27
+ [ reached getOption("max.print") -- omitted 3931 rows ]
+[1] "character"
+[1] "character"
+[1] "character"
