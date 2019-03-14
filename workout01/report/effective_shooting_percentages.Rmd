@@ -9,8 +9,12 @@ The two years prior to the 2014/2015 season, the Warriors finished 6th in the le
 
 Understandably so, as the Bay Area is such a hub of technology, food, and entertainment- the Warriors had to be the best in order to take the spotlight among all the other stimulation present in the area. The sports industry is ultimately a business, and the number of Warriors jerseys sported around town during May and June indicate that business is booming. This can be attributed almost completely to how fun these men are to watch. People like basketball probably for a lot of reasons, but a big one is how fast paced it is. If you leave the room to grab a beer you will have missed something, unlike soccer or football. Being a Warriors fan for the sake of entertainment is great because they keep shooting and keep making it, which is what my analysis is centered around: shooting percentages. 
 
-
 ```{r}
+knitr::include_graphics("gsw-shot-charts.png")
+```
+
+
+```{r results='hide'}
 library(dplyr)
 library(readr)
 library(formattable)
